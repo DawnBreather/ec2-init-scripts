@@ -1,0 +1,5 @@
+{
+    "ssh-tunnel-setup": "https://raw.githubusercontent.com/DawnBreather/ec2-init-scripts/refs/heads/main/ssh_tunnel_setup.sh",
+    "ssh-tunnel-server-setup": "https://raw.githubusercontent.com/DawnBreather/ec2-init-scripts/refs/heads/main/ssh_tunnel_server_setup.sh",
+    "perfdhcp-setup": "https://raw.githubusercontent.com/DawnBreather/ec2-init-scripts/refs/heads/main/ssh_tunnel_server_setup.sh"
+}
