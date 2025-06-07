@@ -73,7 +73,7 @@ After=network.target
 [Service]
 Type=simple
 User=ubuntu
-ExecStart=/usr/bin/ssh -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o ExitOnForwardFailure=yes -N -R ${REMOTE_PORT}:localhost:${LOCAL_PORT} ${USERNAME}@${SERVER_ADDRESS}
+ExecStart=/usr/bin/ssh -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o ExitOnForwardFailure=yes -N -R ${REMOTE_PORT}:0.0.0.0:${LOCAL_PORT} ${USERNAME}@${SERVER_ADDRESS}
 Restart=always
 RestartSec=10
 
